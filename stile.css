@@ -1,0 +1,49 @@
+body{
+    font: 14px arial, sans-serif;
+    background-color: #eaeaea;
+}
+
+.conteiner{
+    width: 600px;
+    margin: auto;
+    border-style: solid;
+    background-color: #34c0eb;
+}
+
+.conteiner h1{
+    text-align: center;
+}
+
+.kotak{
+    width: 450px;
+    margin: auto;
+}
+
+.kotak img{
+    width: 100px;
+    margin-top: 35px;
+}
+
+.sidebar{
+    padding: 10px;
+    float: right;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
